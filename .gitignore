@@ -1,0 +1,8 @@
+.idea
+/build
+/build_temp
+/release
+/node_modules
+/bower_components
+/abricos.src
+config.php

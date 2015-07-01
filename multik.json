@@ -1,0 +1,44 @@
+{
+  "directory": "abricos.src",
+  "groups": {
+    "core": {
+      "directory": "abricos.src"
+    },
+    "module": {
+      "directory": "abricos.src/modules"
+    },
+    "template": {
+      "directory": "abricos.src/templates"
+    },
+    "vendor": {
+      "directory": "abricos.src/vendor"
+    }
+  },
+  "dependencies": {
+    "core": {
+      "group": "core",
+      "repo": "git@github.com:abricos/abricos-core.git",
+      "version": "master"
+    },
+    "abricos.js": {
+      "group": "vendor",
+      "repo": "git@github.com:abricos/abricos.js.git",
+      "version": "master"
+    },
+    "bos": {
+      "group": "module",
+      "repo": "git@github.com:abricos/abricos-mod-bos.git",
+      "version": "master"
+    },
+    "i18n": {
+      "group": "module",
+      "repo": "git@github.com:abricos/abricos-mod-i18n.git",
+      "version": "master"
+    },
+    "user": {
+      "group": "module",
+      "repo": "git@github.com:abricos/abricos-mod-user.git",
+      "version": "master"
+    }
+  }
+}
